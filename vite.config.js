@@ -12,7 +12,7 @@ export default defineConfig({
     // Add an Alias  for the folder /resources/
     resolve: {
         alias: {
-            '~recources': '/resourcess',
+            '~resources': '/resources',
             '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
         }
     },
